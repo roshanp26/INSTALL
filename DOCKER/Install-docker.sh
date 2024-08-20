@@ -16,4 +16,5 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 #To give permission for user
-sudo chown 666 /var/run/docker.sock
+sudo chown $USER  /var/run/docker.sock
+
